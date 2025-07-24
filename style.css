@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #111;
+    margin: 0;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.cta-button {
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.quienes-somos, .mvv, .valores, .servicios, .aplica {
+    padding: 2rem;
+    text-align: center;
+}
+.mvv div, .valores-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mvv img, .valores-grid img {
+    width: 200px;
+    height: auto;
+}
+.servicio-card {
+    display: inline-block;
+    margin: 1rem;
+    width: 200px;
+}
+.servicio-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
